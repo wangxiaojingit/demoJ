@@ -1,0 +1,532 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/page1.png");
+   position:relative;
+}
+.desk{
+    width:100%;
+    height:100%;
+   
+}
+
+.zhi{
+    width:80%;
+    height:70%;
+   top: 3.5rem;
+}
+.gerenjianli{
+    width: 100%;
+    height: 100%;
+    top: 0.5rem;
+}
+.shiqu{
+    width:100%;
+    right:0rem;
+    top: 1rem;
+}
+.qingchun{
+    width:100%;
+    height:100%;
+   top: 0rem;
+}
+
+.peoples{
+    width:80%;
+    top:4rem;
+    
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/page1.png") center center no-repeat;
+    background-size:cover;
+}
+.book{
+    width:100%;
+    height:100%;
+    left:0rem;
+}
+
+.busan{
+    width:100%;
+    height:100%;
+    bottom:0rem;
+    left: 0rem;
+}
+
+.rule{
+    width:100%;
+    height:100%;
+    left: 0rem;
+    bottom: 0rem;
+}
+.math{
+    width:100%;
+    height:100%;
+    
+}
+.book1{
+    width:100%;
+    height:100%;
+    right:3.3rem;
+    top:0.45rem;
+}
+
+.book2{
+    width:100%;
+    height:100%;
+    right: 0rem;
+    top: 0.5rem;
+}
+.book3{
+    width:100%;
+    height:100%;
+    right:-0.35rem;
+    top: 0.6rem;
+}
+.book4{
+    width:100%;
+    height:100%;
+    right:-0.35rem;
+    top: 0.65rem;
+}
+
+.busan2{
+    width:100%;
+    height:100%;
+    right:-0.35rem;
+    top: 0.7rem;
+}
+
+.rule2{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 0.2rem;
+}
+
+.math2{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 0.4rem;
+}
+
+.book5{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 0.6rem;
+}
+.book6{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 0.8rem;
+}
+
+.book7{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 1rem;
+}
+
+.book8{
+    width:80%;
+    height:100%;
+    left: 1.4rem;
+    top: 1.2rem;
+}
+
+
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:3.5rem;
+    line-height:0.64rem;
+    color:darkorange;
+}
+/* 相框 */
+.photoBox{
+    width:5.44rem;
+    height:3.24rem;
+    background:url("../images/photoBorder.png") center center no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    left:50%;
+    margin-left:-2.72rem;
+    bottom:2.7rem;
+    padding:0.4rem;
+    box-sizing:border-box;
+}
+.photo{
+    display:block;
+    width:100%;
+    height:100%;
+
+}
+
+
+/* page3 */
+.page3{
+    position:relative;
+    background:url("../images/page1.png");
+    background-size:100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.jvshou{
+ width:100%;
+ height:100%;
+ right: 0rem;
+}
+.page3 .people{
+  width:100%;
+  height: 100%;
+  left:0;
+}
+
+
+.page3 .people2{
+    width:100%;
+    height: 100%;
+    left:0;
+    top: 0rem;
+  }
+
+  .page3 .kuai{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .kuai2{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .kuai3{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .kuai4{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .kuai5{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .kuai6{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .zi1{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .zi2{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .zi3{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .zi4{
+    width:100%;
+    height: 100%;
+  }
+
+  .page3 .zi5{
+    width:100%;
+    height: 100%;
+  }
+
+
+  .page3 .zi6{
+    width:100%;
+    height: 100%;
+  }
+
+
+  .page3 .zi7{
+    width:100%;
+    height: 100%;
+  }
+/*第四页*/
+.page4{
+  position:relative;
+  background:url("../images/page1.png");
+  background-size:100% 100%;
+}
+.page4>img{
+  position: absolute;
+}
+
+.tiao{
+  width: 100%;
+  height: 100%;
+  right: 0rem;
+}
+.ji{
+  width: 100%;
+  height: 100%;
+}
+.kuang1{
+  width: 100%;
+  height: 100%;
+}
+.kuang2{
+  width: 100%;
+  height: 100%;
+}
+.ming1{
+  width: 100%;
+  height: 100%;
+  top: 1rem;
+}
+.ming2{
+  width: 100%;
+  height: 100%;
+}
+.tu1{
+    width: 100%;
+    height: 100%;
+}
+.tu2{
+  width: 100%;
+  height: 100%;
+}
+
+/*第五页*/
+.page5{
+  position:relative;
+  background:url("../images/page1.png");
+  background-size:100% 100%;
+}
+.page5>img{
+  position: absolute;
+}
+
+.tiao{
+  width: 100%;
+  height: 100%;
+  right: 0rem;
+}
+.ji{
+  width: 100%;
+  height: 100%;
+}
+.kuang1{
+  width: 100%;
+  height: 100%;
+}
+.kuang2{
+  width: 100%;
+  height: 100%;
+}
+.tu1{
+    width: 100%;
+    height: 100%;
+}
+.ming3{
+  width: 100%;
+  height: 100%;
+  top: 1rem;
+}
+.ming4{
+  width: 100%;
+  height: 100%;
+}
+.tu2{
+  width: 100%;
+  height: 100%;
+}
+
+/*第六页*/
+.page6{
+  position:relative;
+  background:url("../images/page1.png");
+  background-size:100% 100%;
+}
+.page6>img{
+  position: absolute;
+}
+
+.tiao{
+  width: 100%;
+  height: 100%;
+  right: 0rem;
+}
+.ji{
+  width: 100%;
+  height: 100%;
+}
+.kuang1{
+  width: 100%;
+  height: 100%;
+}
+.kuang2{
+  width: 100%;
+  height: 100%;
+}
+.tu1{
+    width: 100%;
+    height: 100%;
+}
+.ming5{
+  width: 100%;
+  height: 100%;
+  top: 1rem;
+}
+.ming6{
+  width: 100%;
+  height: 100%;
+}
+.tu2{
+  width: 100%;
+  height: 100%;
+}
+
+/*第七页*/
+.page7{
+  position:relative;
+  background:url("../images/page1.png");
+  background-size:100% 100%;
+}
+.page7>img{
+  position: absolute;
+}
+.xing1{
+  width: 100%;
+  height: 100%;
+  right: 0rem;
+}
+.xing2{
+  width: 100%;
+  height: 100%;
+}
+.qi1{
+  width: 100%;
+  height: 100%;
+}
+.qi2{
+  width: 100%;
+  height: 100%;
+}
+.qi3{
+  width: 100%;
+  height: 100%;
+}
+.qi4{
+  width: 100%;
+  height: 100%;
+}
+.qi5{
+  width: 100%;
+  height: 100%;
+}
+.erweima{
+   width:2.48rem;
+   height:2.5rem;
+   background:url("../images/erweima.png") center center no-repeat;
+   background-size:cover;
+   float:left;
+}
+.tips{
+   float:left;
+   margin-left:0.2rem;
+}
+.tips p{
+   font-size:0.36rem;
+   color:#fff;
+   
+   line-height:0.6rem;
+}
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/timg.png") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+
+}
+@keyframes music{
+    100%{
+        transform: rotate(360deg)
+    }
+}
